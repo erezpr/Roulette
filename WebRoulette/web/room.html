@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roulette</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/tableCss.css" rel="stylesheet" type="text/css" title="basic">
+        <link href="css/rouletteCss.css" rel="stylesheet" type="text/css" title="basic">
+        <script src="javaScript/jquery-2.1.4.min.js"></script>
+        <script src="javaScript/room.js"></script>
+    </head>
+    <body>
+        <div id="background">
+            <img src="images/background2.jpg" class="stretch" alt="" />
+        </div>
+        <div id="container">
+            <div id="header" title="Roulette Game">
+                <h1>
+                    Roulette Table
+                </h1>
+            </div>
+            <div class="myTable">
+                <table id ="waitingGamesTable"></table>
+                <a href="index.html">HOME</a>
+                <h2 id="playerNameError"></h2>
+            </div>
+            <form id="joinGameForm" method="get" action="joinGame"/>
+            <input id="gameName" type='hidden' name="gameName"/>
+            </form>
+        </div>
+
+    </body>
+</html>

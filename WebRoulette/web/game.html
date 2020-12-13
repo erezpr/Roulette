@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roulette Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/rouletteCss.css" rel="stylesheet" type="text/css" title="basic">
+        <link href="css/gameCss.css" rel="stylesheet" type="text/css" title="basic">
+        <link href="css/gameTablesCss.css" rel="stylesheet" type="text/css" title="basic">
+        <script src="javaScript/jquery-2.1.4.min.js"></script>
+        <script src="javaScript/game.js"></script>
+        <script src="javaScript/betGenerator.js"></script>
+    </head>
+    <body>
+        <div id="background">
+            <img src="images/background2.jpg" class="stretch" alt="" />
+        </div>
+        <div id="container">
+            <div id="header"><h1>ROULETTE</h1></div>
+            <div id="content">
+                <table id="firstTable">
+                    <tr>
+                        <td>
+                            <img class="rouletteWheel" src="images/rouletteWheel.png" width="234" height="232" alt="rouletteWheel"/>
+                        </td>
+                        <td>
+                            <div id="rouletteBoard"></div>
+                        </td>
+                        <td>
+                            <div class="winningNumbers">
+                                <table>
+                                    <tbody id ="winningNumbers">
+                                        <tr><td>history</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <h2 id="massage">WAITING FOR MORE PLAYERS TO JOIN IN</h2>
+                <h2 id="timer"></h2>
+                <table id="secendTable">
+                    <tr>
+                        <td>
+                            <div class="playerInfoTable"></div>
+                        </td>
+                        <td>
+                            <div>
+                                <table id="moneyOnbet">
+                                    <tbody>
+                                        <tr>
+                                            <td id="dollar5" onclick="updateMoneyLabel('5')"></td>
+                                            <td id="dollar25" onclick="updateMoneyLabel('25')"></td>
+                                            <td id="dollar100" onclick="updateMoneyLabel('100')"></td>
+                                            <td id="dollar1000" onclick="updateMoneyLabel('1000')"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><h2 id="moneyOnbetLabel">5</h2></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><a href="index.html">HOME</a></td>
+                        <td><a id="doneButton" onclick="finnishBetting()">DONE</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+.rouletteWheel{
+    -webkit-transition: all 5000ms cubic-bezier(0.645, 0.045, 0.355, 1) 1ms;
+    -moz-transition: all 5000ms cubic-bezier(0.645, 0.045, 0.355, 1) 1ms;
+    -o-transition: all 5000ms cubic-bezier(0.645, 0.045, 0.355, 1) 1ms;
+    transition: all 5000ms cubic-bezier(0.645, 0.045, 0.355, 1) 1ms;
+}
+
+.rotated {
+    -webkit-transform: rotateZ(2880deg);
+    transform: rotateZ(2880deg);
+}
+#doneButton{
+    position: absolute;
+    right: 0px;
+    cursor:pointer;    
+}
+#AmericanRouletteBoardImge{
+}
+#dollar5{
+    background-image: url("../images/5.png");
+    width: 85px;
+    height: 84px;
+    min-width: 85px;
+    min-height: 84px;
+    background-repeat: no-repeat;
+    cursor:pointer;    
+
+}
+#dollar25{
+    background-image: url("../images/25.png");
+    width: 85px;
+    height: 84px;
+    min-width: 85px;
+    min-height: 84px;
+    background-repeat: no-repeat;
+    cursor:pointer;    
+}
+#dollar100{
+    background-image: url("../images/100.png");
+    width: 85px;
+    height: 84px;
+    min-width: 85px;
+    min-height: 84px;
+    background-repeat: no-repeat;
+    cursor:pointer;    
+
+}
+#dollar1000{
+    background-image: url("../images/1000.png");
+    width: 85px;
+    height: 84px;
+    min-width: 85px;
+    min-height: 84px;
+    background-repeat: no-repeat;
+    cursor:pointer;    
+
+}
+
+.dollar5Chip{
+    background-image: url("../images/5chip.png");
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+}
+.chip{
+    position: absolute;
+}
+#firstTable{
+    margin: 0 auto;
+    border-spacing: 20px 0px;
+}
+#secendTable{
+    margin: 0 auto;
+    border-spacing: 100px 0px;
+}

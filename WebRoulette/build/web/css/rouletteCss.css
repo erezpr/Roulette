@@ -1,0 +1,116 @@
+html {
+    height:100%;
+}
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed;
+    left: 0px; 
+    top: 0px; 
+    z-index: -1;
+}
+.stretch {
+    margin: auto;
+    height:100%;
+    width: 100%;
+}
+#container {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    right: 10%;
+}
+#content {
+    color:#ffffff;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#joinButton{
+    cursor: pointer;
+    font-family: "sprague";
+    text-shadow: 7px 4px 8px burlywood; 
+}
+#header {
+    color: #ffffff;
+    font-family: "Cartoon Blocks Christmas";
+    font-size: 50px;
+}
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: bisque;
+    text-shadow: 7px 4px 8px burlywood; 
+    font-family: "sprague";
+    font-size: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: bisque;
+    text-shadow: 7px 4px 8px burlywood; 
+    font-family: "sprague";
+    font-size: 50px;
+}
+.classname {
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform:  rotate(0deg) scale(1) skew(1deg) translate(10px); 
+    -webkit-transform:  rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform:  rotate(0deg) scale(1) skew(1deg) translate(10px);-o-transform:  rotate(4deg) scale(1) skew(1deg) translate(10px);-ms-transform:  rotate(4deg) scale(1) skew(1deg) translate(10px);}.classname:hover{transform:  rotate(0deg) scale(0.67) skew(1deg) translate(0px);-webkit-transform:  rotate(0deg) scale(0.67) skew(1deg) translate(0px);-moz-transform:  rotate(0deg) scale(0.67) skew(1deg) translate(0px);-o-transform:  rotate(0deg) scale(0.67) skew(1deg) translate(0px);-ms-transform:  rotate(0deg) scale(0.67) skew(1deg) translate(0px);}
+.classname { 
+    cursor: pointer;
+    text-align:center; 
+    padding:   10px;
+}
+#sattingForm{
+    margin-left: auto ;
+    margin-right: auto;
+    position: relative;
+}
+.textBox {
+      padding:3px; 
+      border-color:#cccccc; 
+      font-size:17px; 
+      border-width:1px; 
+      border-radius:6px; 
+      border-style:groove; 
+      background-color:#dee1ff; 
+      box-shadow: 0px 0px 10px 0px rgba(255,255,255,.75); 
+      text-shadow:0px 0px 0px rgba(42,42,42,.75);  
+} 		 
+.textBox:focus { 
+    outline:none; 
+}
+#money{
+    width: 100px;
+}
+.submitButton{
+    font-family: "sprague";
+    color: bisque;
+    padding: 0;
+    border: 0;
+    background-color: Transparent;
+    text-shadow: 7px 4px 8px burlywood;
+    font-size: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 430px;
+    cursor: pointer;
+}
+
+#mainMenuTable{
+    margin: 0 auto;
+    
+} 

@@ -1,0 +1,314 @@
+.playerInfoTable {
+    margin:0px;padding:0px;
+    display: table-cell;
+    width:100%;
+    border:0px solid #000000;
+    border-spacing: 0px;
+    -moz-border-radius-bottomleft:14px;
+    -webkit-border-bottom-left-radius:14px;
+    border-bottom-left-radius:14px;
+
+    -moz-border-radius-bottomright:14px;
+    -webkit-border-bottom-right-radius:14px;
+    border-bottom-right-radius:14px;
+
+    -moz-border-radius-topright:14px;
+    -webkit-border-top-right-radius:14px;
+    border-top-right-radius:14px;
+
+    -moz-border-radius-topleft:14px;
+    -webkit-border-top-left-radius:14px;
+    border-top-left-radius:14px;
+}.playerInfoTable table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.playerInfoTable tr:last-child td:last-child {
+    -moz-border-radius-bottomright:14px;
+    -webkit-border-bottom-right-radius:14px;
+    border-bottom-right-radius:14px;
+}
+.playerInfoTable table tr:first-child td:first-child {
+    -moz-border-radius-topleft:14px;
+    -webkit-border-top-left-radius:14px;
+    border-top-left-radius:14px;
+}
+.playerInfoTable table tr:first-child td:last-child {
+    -moz-border-radius-topright:14px;
+    -webkit-border-top-right-radius:14px;
+    border-top-right-radius:14px;
+}.playerInfoTable tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:14px;
+    -webkit-border-bottom-left-radius:14px;
+    border-bottom-left-radius:14px;
+}.playerInfoTable tr:hover td{
+    background-color:#b5c1ff;
+
+
+}
+.playerInfoTable td{
+    vertical-align:middle;
+    background:-o-linear-gradient(bottom, #e6edf4 5%, #b5c1ff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e6edf4), color-stop(1, #b5c1ff) ); 
+    background:-moz-linear-gradient( center top, #e6edf4 5%, #b5c1ff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6edf4", endColorstr="#b5c1ff");	background: -o-linear-gradient(top,#e6edf4,b5c1ff);
+
+    background-color:#e6edf4;
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:4px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.playerInfoTable tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.playerInfoTable tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.playerInfoTable tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.playerInfoTable tr:first-child td{
+    background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+    background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+    background-color:#005fbf;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:Comic Sans MS;
+    font-weight:bold;
+    color:#ffffff;
+}
+.playerInfoTable tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+    background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+    background-color:#005fbf;
+}
+.playerInfoTable tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.playerInfoTable tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+#rouletteBoard{
+    position: relative;
+}
+#rouletteBoardTable-1{
+    position: absolute;
+    width: 30px;
+    height: 41px;
+    top: 77px;
+    left: 25px;
+    display: none;
+}
+#rouletteBoardTable-1 tr{
+    position: relative;
+    cursor:pointer;    
+}
+
+#rouletteBoardTable-2{
+    position: absolute;
+    width: 534px;
+    height: 211px;
+    top: 0;
+    left: -7px;
+    margin-left: 68px;
+    border-spacing:6px;
+    display: none;
+
+
+}
+
+#rouletteBoardTable-2 tr:nth-child(odd) td:nth-child(odd) {
+    position: relative;
+    width:4px;
+    height:44px;
+    cursor:pointer;    
+
+}
+
+#rouletteBoardTable-2 tr:nth-child(odd) td:nth-child(even) {
+    position: relative;
+    cursor:pointer;    
+
+}
+#rouletteBoardTable-2 tr:nth-child(even) td:nth-child(odd) {
+    position: relative;
+    cursor:pointer;    
+
+}
+
+#rouletteBoardTable-2 tr:nth-child(even) td:nth-child(even){
+    position: relative;
+    cursor:pointer;    
+
+
+}
+#rouletteBoardTable-3{
+    position: absolute;
+    width: 493px;
+    height: 50px;
+    top: 200px;
+    left: 0px;
+    margin-left: 66px;
+    border-spacing:15px;
+    display: none;
+
+
+}
+#rouletteBoardTable-3 tr td{
+    position: relative;
+    cursor:pointer;    
+
+}
+#rouletteBoardTable-4{
+    position: absolute;
+    width: 490px;
+    height: 50px;
+    top: 248px;
+    left: 2px;
+    margin-left: 66px;
+    border-spacing:12px;
+    display: none;
+
+
+}
+#rouletteBoardTable-4 tr td{
+    position: relative;
+    cursor:pointer;    
+
+}
+
+.winningNumbers::-webkit-scrollbar {
+    width: 17px;
+}
+ 
+.winningNumbers::-webkit-scrollbar-track {
+    border-radius: 15px;
+}
+ 
+.winningNumbers::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background:-o-linear-gradient(bottom, #bf005f 5%, #2b032b 100%);	
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bf005f), color-stop(1, #2b032b) );
+    background:-moz-linear-gradient( center top, #bf005f 5%, #2b032b 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#bf005f", endColorstr="#2b032b");	
+    background: -o-linear-gradient(top,#bf005f,2b032b);
+
+    background-color:#bf005f;
+    border:0px solid #000000;
+    border-width:0px 0px 1px 1px;
+    color:#ffffff;
+
+}
+
+
+.winningNumbers {
+    overflow-y: scroll;
+    max-height: 300px;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    border:0px solid #000000;
+
+    -moz-border-radius-bottomleft:13px;
+    -webkit-border-bottom-left-radius:13px;
+    border-bottom-left-radius:13px;
+
+    -moz-border-radius-bottomright:13px;
+    -webkit-border-bottom-right-radius:13px;
+    border-bottom-right-radius:13px;
+
+    -moz-border-radius-topright:13px;
+    -webkit-border-top-right-radius:13px;
+    border-top-right-radius:13px;
+
+    -moz-border-radius-topleft:13px;
+    -webkit-border-top-left-radius:13px;
+    border-top-left-radius:13px;
+}.winningNumbers table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.winningNumbers tr:last-child td:last-child {
+
+}
+.winningNumbers table tr:first-child td:first-child {
+    -moz-border-radius-topleft:13px;
+    -webkit-border-top-left-radius:13px;
+    border-top-left-radius:13px;
+}
+.winningNumbers table tr:first-child td:last-child {
+    
+}.winningNumbers tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:13px;
+    -webkit-border-bottom-left-radius:13px;
+    border-bottom-left-radius:13px;
+}.winningNumbers tr:hover td{
+    background-color:#f2c9c9;
+
+
+}
+.winningNumbers td{
+    vertical-align:middle;
+    background:-o-linear-gradient(bottom, #ead5d5 5%, #f2c9c9 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ead5d5), color-stop(1, #f2c9c9) ); 
+    background:-moz-linear-gradient( center top, #ead5d5 5%, #f2c9c9 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ead5d5", endColorstr="#f2c9c9");	background: -o-linear-gradient(top,#ead5d5,f2c9c9);
+
+    background-color:#ead5d5;
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:6px;
+    font-size:19px;
+    font-family:Impact;
+    font-weight:normal;
+    color:#000000;
+}.winningNumbers tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.winningNumbers tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.winningNumbers tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.winningNumbers tr:first-child td{
+    background:-o-linear-gradient(bottom, #bf005f 5%, #2b032b 100%);	
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bf005f), color-stop(1, #2b032b) );
+    background:-moz-linear-gradient( center top, #bf005f 5%, #2b032b 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#bf005f", endColorstr="#2b032b");	
+    background: -o-linear-gradient(top,#bf005f,2b032b);
+
+    background-color:#bf005f;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:20px;
+    font-family:Comic Sans MS;
+    font-weight:bold;
+    color:#ffffff;
+}
+.winningNumbers tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #bf005f 5%, #2b032b 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bf005f), color-stop(1, #2b032b) );
+    background:-moz-linear-gradient( center top, #bf005f 5%, #2b032b 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#bf005f", endColorstr="#2b032b");	background: -o-linear-gradient(top,#bf005f,2b032b);
+
+    background-color:#bf005f;
+}
+.winningNumbers tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.winningNumbers tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}

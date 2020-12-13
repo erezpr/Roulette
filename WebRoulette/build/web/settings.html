@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/rouletteCss.css" rel="stylesheet" type="text/css" title="basic">
+        <link href="css/tableCss.css" rel="stylesheet" type="text/css" title="basic">
+        <script>
+            function show(value) {
+                document.getElementById("money").innerHTML = value;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="background">
+            <img src="images/background2.jpg" class="stretch" alt="" />
+        </div>
+        <div id="container">
+            <div id="header"><h1>CREATE NEW TABLE</h1></div>
+            <div id="content">
+                <form action="settings" method="post">
+                    <table id="sattingForm" >
+                        <tr>
+                            <td><h2>GAME NAME</h2></td>
+                            <td><input class="textBox" type="text" name="gameName" value="Casino Roulette"/></td>
+                        </tr>
+                        <tr>
+                            <td><h2>HUMAN PLAYERS</h2></td>
+                            <td><input class="textBox" type="number" min="0" max="6" name="numberOfHumanPlayer" value="2"/></td>
+                        </tr>
+                        <tr>
+                            <td><h2>COMPUTER PLAYERS</h2></td>
+                            <td><input class="textBox" type="number" min="0" max="6" name="numberOfComputerPlayer" value="0"/></td>
+                        </tr>
+                        <tr>
+                            <td><h2>MIN BETS</h2></td>
+                            <td><input class="textBox" type="checkbox" name="minBets" value="0"/></td>
+                        </tr>
+                        <tr>
+                            <td><h2>MAX BETS</h2></td>
+                            <td><input  class="textBox" type="number" min="0" max="10" name="maxBets" value="5"/></td>
+                        </tr>
+                        <tr>
+                            <td><h2>STARTING CAPITAL</h2></td>
+                            <td><input  class="textBox" type="range" min="0" max="1000" name="startingCapital" value="200" step="10" oninput="show(value)"/></td>
+                            <td><h2 id="money">200</h2></td>
+                        </tr>
+
+                    </table>
+                    <table align="center">
+                        <tr>
+                            <td><h2>ROULETTE TYPE</h2></td>
+                            <td><input  class="textBox" type="radio" name="rouletteType" value="American" checked></td>
+                            <td><h2>American</h2></td> 
+                            <td><input  class="textBox" type="radio" name="rouletteType" value="European"></td>
+                            <td><h2>European</h2></td>
+                        </tr>
+                    </table>
+                    <a href="index.html">HOME</a>
+                    <input class="submitButton" type="submit" value="CREATE TABLE"/>
+                </form>
+            </div>
+
+
+        </div>
+    </body>
+</html>
